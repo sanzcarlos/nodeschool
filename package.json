@@ -1,0 +1,29 @@
+{
+  "name": "nodeschool",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanzcarlos/nodeschool.git"
+  },
+  "keywords": [],
+  "author": "Carlos Sanz <carlos.sanzpenas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanzcarlos/nodeschool/issues"
+  },
+  "homepage": "https://github.com/sanzcarlos/nodeschool#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "eslint": "^8.29.0",
+    "husky": "^8.0.2",
+    "jest": "^29.3.1",
+    "lint-staged": "^13.1.0"
+  }
+}
